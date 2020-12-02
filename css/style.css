@@ -637,7 +637,7 @@ img{
 
 .main-header .logo-box .logo{
 	position: relative;
-	padding: 15px 0;
+	padding: 0px 0;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
@@ -2296,7 +2296,7 @@ header-style-seven .nav-toggler:hover{
 }
 
 .fixed-header .sticky-header .logo{
-	padding: 10px 0;
+	padding: 0px 0px 0px 5rem;
 }
 
 .sticky-header .main-menu .navigation > li{
@@ -2945,10 +2945,10 @@ header-style-seven .nav-toggler:hover{
 .banner-carousel-two .content-box .inner-box{
 	position: relative;
 	float: right;
-	max-width: 500px;
+	max-width: 530px;
 	background-color: rgba(0,0,0,0.80);
-	padding: 70px 70px 60px;
-	padding-right: 30px;
+	padding: 70px 50px 60px;
+	padding-right: 10px;
 	opacity: 0;
 	visibility: hidden;
 	-webkit-transform: translateX(100px);
@@ -3027,7 +3027,7 @@ header-style-seven .nav-toggler:hover{
 .banner-carousel-two .content-box h2{
 	position: relative;
 	display: block;
-	font-size: 48px;
+	font-size: 42px;
 	line-height: 1.2em;
 	color: #ffffff;
 	font-weight: 500;
@@ -4136,7 +4136,7 @@ header-style-seven .nav-toggler:hover{
 	width:100%;
 	height:100%;
 	background:#000000;
-	opacity: .70;
+	opacity: .50;
 	position:absolute;
 }
 
@@ -9340,7 +9340,8 @@ header-style-seven .nav-toggler:hover{
 
 .main-footer.alternate .widgets-section{
 	margin-top: 0;
-	padding-top: 95px;
+	padding-top: 25px;
+	padding-bottom:10px;
 }
 
 .main-footer .footer-column{
