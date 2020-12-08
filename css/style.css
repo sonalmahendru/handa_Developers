@@ -736,7 +736,7 @@ img{
 	width:200px;
 	padding:0px 0px;
 	z-index:100;
-	background:rgba(47,46,50,.90);
+	background:#bbbfcae6;
 	-webkit-transition:all 200ms linear;
 	-moz-transition:all 200ms linear;
 	-ms-transition:all 200ms linear;
@@ -785,7 +785,7 @@ img{
 
 .main-menu .navigation > li > ul > li:hover > a{
     border-left: 4px solid #ff8a00;
-	background:#222222;
+	background:#bbbfca;
 }
 
 .main-menu .navigation > li > ul > li.dropdown > a:after{
@@ -812,7 +812,7 @@ img{
 	width:200px;
 	padding:0px 0px;
 	z-index:100;
-	background:rgba(47,46,50,.90);
+	background:#bbbfca;
 	-webkit-transition:all 200ms linear;
 	-moz-transition:all 200ms linear;
 	-ms-transition:all 200ms linear;
@@ -2300,7 +2300,7 @@ header-style-seven .nav-toggler:hover{
 }
 
 .sticky-header .main-menu .navigation > li{
-	margin-left: 30px !important;
+	margin-left: 40px !important;
 	padding: 0;
 	margin-right: 0;
 	background-color: transparent;
@@ -2936,6 +2936,18 @@ header-style-seven .nav-toggler:hover{
 	background-position: center center;
 	background-size: cover;
 	padding:240px 0;
+}
+
+.banner-carousel-two .owl-stage-outer .slide-item:before{
+	
+		content: '';
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		background: #495464;
+		opacity: 0.3;
+		position: absolute;
 }
 
 .banner-carousel-two .content-box{
