@@ -23,7 +23,7 @@
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
 
-<body>
+<body onload="showDivs(0,5)">
 
 <div class="page-wrapper">
     <!-- Preloader -->
@@ -57,7 +57,7 @@
                                 </li>-->
                                 <li class="current"><a href="past-projects.html">Past Projects</a>
                                 </li>
-                                <li><a href="current-projects.html">On-going Projects</a>
+                                <li><a href="current-projects.html">Current Projects</a>
                                 </li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
@@ -93,7 +93,7 @@
                                 <!--<li><a href="team.html">Our Team</a></li>-->
                                 <li class="current"><a href="past-projects.html">Past Projects</a>
                                 </li>
-                                <li><a href="current-projects.html">On-going Projects</a>
+                                <li><a href="current-projects.html">Current Projects</a>
                                 </li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul> 
@@ -106,7 +106,7 @@
     <!--End Main Header -->
     
     <!--Page Title-->
-    <section class="page-title" style="background-image:url(images/gallery/redwood/img8a.jpg);">
+    <!-- <section class="page-title" style="background-image:url(images/gallery/redwood/img8a.jpg);">
         <div class="auto-container">
             <div class="inner-container clearfix">
                 <div class="title-box">
@@ -118,7 +118,7 @@
                 </ul>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--End Page Title-->
 
     <!--Project Detail Section-->
@@ -130,15 +130,27 @@
                 <div class="upper-box">
                     
                     <!--Project Tabs-->
-                    <div class="project-tabs tabs-box clearfix" style="display: flex;">
+                    <div class="project-tabs tabs-box clearfix" >
                         <!--Tab Btns-->
                         <ul class="tab-btns tab-buttons clearfix">
-                            <li data-tab="#tab-1" class="tab-btn active-btn"><img src="images/gallery/redwood/img2.jpg" alt=""></li>
-                            <li data-tab="#tab-2" class="tab-btn"><img src="images/gallery/redwood/img3.jpg" alt=""></li>
-                            <li data-tab="#tab-3" class="tab-btn"><img src="images/gallery/redwood/img4.jpg" alt=""></li>
-                            <li data-tab="#tab-4" class="tab-btn"><img src="images/gallery/redwood/img5.jpg" alt=""></li>
-                            <li data-tab="#tab-5" class="tab-btn"><img src="images/gallery/redwood/img6.jpg" alt=""></li>
-                            <li data-tab="#tab-6" class="tab-btn"><img src="images/gallery/redwood/img7.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-1" class="tab-btn active-btn"><img src="images/gallery/redwood/img2.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-1b" class="tab-btn"><img src="images/gallery/redwood/img2a.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-2" class="tab-btn"><img src="images/gallery/redwood/img3.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-2a" class="tab-btn"><img src="images/gallery/redwood/img3a.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-3" class="tab-btn"><img src="images/gallery/redwood/img4.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-3a" class="tab-btn"><img src="images/gallery/redwood/img4a.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-3b" class="tab-btn"><img src="images/gallery/redwood/img4b.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-3c" class="tab-btn"><img src="images/gallery/redwood/img4c.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-3d" class="tab-btn"><img src="images/gallery/redwood/img4d.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-4" class="tab-btn"><img src="images/gallery/redwood/img5.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-4a" class="tab-btn"><img src="images/gallery/redwood/img5a.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-4b" class="tab-btn"><img src="images/gallery/redwood/img5b.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-5" class="tab-btn"><img src="images/gallery/redwood/img6.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-6" class="tab-btn"><img src="images/gallery/redwood/img7.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-6a" class="tab-btn"><img src="images/gallery/redwood/img7a.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-6b" class="tab-btn"><img src="images/gallery/redwood/img7b.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-6c" class="tab-btn"><img src="images/gallery/redwood/img8.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-6d" class="tab-btn"><img src="images/gallery/redwood/img8a.jpg" alt=""></li>
                         </ul>
                         
                         <!--Tabs Container-->
@@ -224,15 +236,24 @@
                             </div>
 
                             <!--Tab-->
-                            <div class="tab" id="tab-6a">
+                            <div class="tab" id="tab-6c">
                                 <figure class="image"><a href="images/gallery/redwood/img8.jpg" class="lightbox-image" data-fancybox="images"><img src="images/gallery/redwood/img8.jpg" alt=""></a></figure>
                             </div>
 
                             <!--Tab-->
-                            <div class="tab" id="tab-6b">
+                            <div class="tab" id="tab-6d">
                                 <figure class="image"><a href="images/gallery/redwood/img8a.jpg" class="lightbox-image" data-fancybox="images"><img src="images/gallery/redwood/img8a.jpg" alt=""></a></figure>
                             </div>
                         </div>
+                    </div>
+
+                    <div style="text-align: center;">
+                        <button id="prevbtn" class="prevbtn" onclick="plusDivs(-1)">
+                            <span class="fa fa-long-arrow-left"></span> Previous
+                        </button>
+                        <button id="nextbtn" class="nextbtn" onclick="plusDivs(1)">Next
+                            <span class="fa fa-long-arrow-right"></span>
+                        </button></li>
                     </div>
                 </div>
                 
@@ -244,21 +265,7 @@
                             <div class="inner-column">
                                 <h2>About This Home</h2>
                                 <p>Beautiful 2500 square foot home within walking distance to the 1.1 billion dollar remodeled Westfield shopping center and Santana Row. 5 bedrooms with 3.5 luxurious bathrooms. Expansive oak wide plank engineered flooring throughout main living areas. 10 foot ceilings in the entire home. Chef inspired kitchen with oversized island, 36" Thermador stainless steel range and built-in Lebeihr refrigerator. Once you walk through the double front entry doors you encounter the living room for relaxed entertaining. Further down the hall will bring you to the open kitchen and family/dining areas. The master retreat has access to the rear yard for morning meditations and winding down in the evening on the back patio. Walking distance to Valley Fair and Santana Row and biking distance to the new Apple campus, the home is centrally located to world class shopping, restaurants, nightlife and entertainment. Close to Highways 280 and 880 for an easy commute.</p> 
-                                <!--<h4>Project Challenge</h4>
-                                <p>It’s time to put on makeup. It’s time to dress up right. It’s time to raise the curtain on the Muppet Show tonight. The mate was a mighty sailin’ man the Skipper brave and sure.</p>
-                                <ul class="list-style-one">
-                                    <li>Five passengers set sail that day for a three hour</li>
-                                    <li>Till the one day when the lady met this fellow</li>
-                                    <li>Family that’s the way we all became the brady</li>
-                                    <li>Champion the cause of the innocent career</li>
-                                    <li>Now were up in the big leagues getting’ turn</li>
-                                    <li>The powerless in a world of criminals operate</li>
-                                </ul>
-                                <h4>What We Did</h4>
-                                <p>Then along come two they got nothin’ but their jeans. Texas tea. Knight Rider: A shadowy flight into the dangerous world of a man who does not exist. The first mate and his Skipper too will do their very best to make the tropic island nest.</p>
-                                <h4>RESULT</h4>
-                                <p>That’s just a little bit more than the law will allow. We’re gonna do it. On your mark get set and go now. Got a dream and we just know now we’re gonna make our dream come true. Makin their way the only way they know how. That’s just a little bit more than the law will allow.</p>
-                            --></div>
+                            </div>
                         </div>
                         
                         <!--Info Column-->
@@ -267,7 +274,6 @@
                                 <h3>Project Information</h3>
                                 <p>Price Insights</p>
                                 <ul class="info-list">
-                                    <li><strong>Redfin Estimate :</strong> $1,910,242</li>
                                     <li><strong>Sold Price :</strong> $1,825,000</li>
                                 </ul>
                                 <p>Home Facts</p>
@@ -280,15 +286,6 @@
                                     <li><strong>Style :</strong> Contemporary, Luxury</li>
                                     <li><strong>Community :</strong> San Jose</li>
                                 </ul>
-                                <!--Help Box-->
-                                <!--<div class="help-box-two">
-                                    <div class="inner">
-                                        <span class="title">Quick Contact</span>
-                                        <h2>Get Solution</h2>
-                                        <div class="text">Contact us at the Interior office nearest to you or submit a business inquiry online.</div>
-                                        <a class="theme-btn btn-style-two" href="contact.html">Contact</a>
-                                    </div>
-                                </div>-->
                             </div>
                         </div>
                     </div>
@@ -340,7 +337,7 @@
                                             <li><a href="about.html">About</a></li>
                                             <!--<li><a href="#">Our Team</a></li>-->
                                             <li><a href="past-projects.html">Past Projects</a></li>
-                                            <li><a href="current-projects.html">On-going Projects</a></li>
+                                            <li><a href="current-projects.html">Current Projects</a></li>
                                             <li><a href="contact.html">Contact Us</a></li>
                                         </ul>
                                    </div>
@@ -350,7 +347,7 @@
                            <!--Footer Column-->
                            <div class="footer-column col-xl-4 col-lg-4 col-md-4 col-sm-12">
                             <div class="footer-widget gallery-widget">
-                                <h2 class="widget-title">Recent Works</h2>
+                                <h2 class="widget-title">Past Projects</h2>
                                 <div class="widget-content">
                                     <div class="outer clearfix">
                                         <figure class="image">
@@ -432,6 +429,61 @@
 <!-- Color Setting -->
 <script src="js/color-settings.js"></script>
 </body>
+<script>
+    var slideIndex = 5; //contains the last slide index
+    var curSlide = 0;
+    var thumbnails = document.getElementsByClassName("tab-btn");
+    var fullImages = document.getElementsByClassName("tab");
+    var num_slides = thumbnails.length;
+    var prevBtn = document.getElementById("prevbtn");
+    var nextBtn = document.getElementById("nextbtn");
+   
 
+    function plusDivs(n) {
+        for (i = 0; i < num_slides; i++) {
+            if(thumbnails[i].classList.contains("active-btn")){
+                curSlide = i;
+                slideIndex = i+5;
+            }
+            thumbnails[i].classList.remove("active-btn");
+            thumbnails[i].style.display = "none";
+            fullImages[i].classList.remove("active-tab");
+            fullImages[i].style.display="none";      
+        }
+
+        curSlide+=n;
+        slideIndex = 6*(1+Math.floor(curSlide/6))-1;
+        //if first slide is selected --> curSlide==-1
+        if(curSlide == -1){
+            curSlide = num_slides-1;
+            slideIndex = num_slides - 1;
+        } 
+        //if last slide is selected --> curSlide == num_slides
+        else if(curSlide == num_slides){
+            curSlide = 0;
+            slideIndex = 5;
+        }
+
+        showDivs(curSlide, slideIndex);
+    }
+
+    function showDivs(curSlide, slideIndex) {
+
+        if (slideIndex >= num_slides) {
+            slideIndex = num_slides-1;
+        } else if(slideIndex <= 5){
+            slideIndex = 5;
+        }
+    
+        for(var i=slideIndex;i>slideIndex-6;i--){
+            thumbnails[i].style.display = "block";  
+        }
+        fullImages[curSlide].classList.add("active-tab")
+        fullImages[curSlide].style.display="block";
+        
+
+}
+
+</script>
 <!-- project-detail27:18-->
 </html>

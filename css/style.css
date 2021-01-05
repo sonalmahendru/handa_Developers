@@ -4135,7 +4135,7 @@ header-style-seven .nav-toggler:hover{
 
 .page-title{
 	position:relative;
-	padding: 380px 0 180px;
+	padding: 180px 0 180px;
 	background-size:cover;
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -4184,7 +4184,7 @@ header-style-seven .nav-toggler:hover{
 .page-title .bread-crumb {
 	position: relative;
 	float: right;
-	padding-top: 95px;
+	padding-top: 135px;
 }
 
 .page-title .bread-crumb li{
@@ -5048,7 +5048,7 @@ header-style-seven .nav-toggler:hover{
 }
 
 .specialize-section-two .title-column .sec-title{
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 .specialize-section-two .title-column .text-box{
@@ -5201,8 +5201,8 @@ header-style-seven .nav-toggler:hover{
 
 .carousel-outer .thumbs-carousel .owl-nav{
     position: absolute;
-    left: 96%;
-    bottom: -442%;
+    left: 104%;
+    bottom: 200%;
     transform: rotate(-90deg);
     transform-origin: left;
     min-width: 300px;
@@ -5705,10 +5705,12 @@ header-style-seven .nav-toggler:hover{
 
 .project-block{
 	position: relative;
+	cursor: pointer;
 }
 
 .project-block .image-box{
 	position: relative;
+	
 }
 
 .project-block .image-box .image{
@@ -5764,11 +5766,11 @@ header-style-seven .nav-toggler:hover{
 	-ms-transform: scale(1);
 	-o-transform: scale(1);
 	transform: scale(1);
-	-webkit-transition-delay: 700ms;
-	-moz-transition-delay: 700ms;
-	-ms-transition-delay: 700ms;
-	-o-transition-delay: 700ms;
-	transition-delay: 700ms;
+	-webkit-transition-delay: 300ms;
+	-moz-transition-delay: 300ms;
+	-ms-transition-delay: 300ms;
+	-o-transition-delay: 300ms;
+	transition-delay: 300ms;
 }
 
 .project-block .overlay-box:before{
@@ -5798,9 +5800,26 @@ header-style-seven .nav-toggler:hover{
 	top: 0;
 	height: 100%;
 	width: 100%;
-	opacity: 0.5;
+	opacity: 0.3;
 	visibility: visible;
 	border-radius: 0%;
+}
+
+.project-block .address{
+	position: relative;
+	text-align: center;
+	opacity:1;
+	font-size: 14px;
+	line-height: 32px;
+	color: #ffffff;
+	background-color: #495464;
+	font-weight: 500;
+	text-transform: uppercase;
+   -webkit-transition: all 400ms ease;
+   -moz-transition: all 400ms ease;
+   -ms-transition: all 400ms ease;
+   -o-transition: all 400ms ease;
+   transition: all 400ms ease;
 }
 
 .project-block .overlay-box .btn-box{
@@ -5809,7 +5828,7 @@ header-style-seven .nav-toggler:hover{
 	top: 50%;
 	width: 100%;
 	text-align: center;
-	opacity:0;
+	opacity:1;
 	margin-top: -15px;
    -webkit-transform:scale(0,0);
    -moz-transform:scale(0,0);
@@ -6277,7 +6296,7 @@ header-style-seven .nav-toggler:hover{
 
 .project-details-section{
 	position: relative;
-	padding: 50px 0 60px;
+	padding: 20px 0 60px;
 }
 
 .project-detail .upper-box{
@@ -6287,15 +6306,13 @@ header-style-seven .nav-toggler:hover{
 .project-detail .project-tabs{
 	position: relative;
 	display: flex;
-	flex-direction: column;
 }
 
 .project-detail .project-tabs .tab-btns{
 	position: relative;
 	float: left;
-	width: auto;
-	display: flex;
-	order:2;
+	width: 200px;
+	margin-right: 10px;
 }
 
 .project-detail .project-tabs .tab-btn{
@@ -6304,6 +6321,7 @@ header-style-seven .nav-toggler:hover{
 	cursor: pointer;
 	margin-left: 5px;
 	margin-right: 5px;
+	margin-bottom:15px;
 }
 
 .project-detail .project-tabs .tab-btn img{
@@ -6424,7 +6442,7 @@ header-style-seven .nav-toggler:hover{
     font-weight: 400;
     text-transform: uppercase;
     line-height: 30px;
-    padding-top: 6px;
+    padding-top: 0px;
     background-color: #ffffff;
     z-index: 9;
     -webkit-transition: all 200ms ease;
@@ -6434,7 +6452,7 @@ header-style-seven .nav-toggler:hover{
 	transition: all 200ms ease;
 	/*border: 2px solid #bbbbbb;
 	border-left: 0;*/
-	margin-top:5px;
+	margin-top:0px;
 }
 
 .nextbtn:hover{
@@ -6451,7 +6469,7 @@ header-style-seven .nav-toggler:hover{
     font-weight: 400;
     text-transform: uppercase;
     line-height: 30px;
-    padding-top: 6px;
+    padding-top: 0px;
     background-color: #ffffff;
     z-index: 9;
     -webkit-transition: all 200ms ease;
@@ -6461,7 +6479,7 @@ header-style-seven .nav-toggler:hover{
 	transition: all 200ms ease;
 	/*border: 2px solid #bbbbbb;
 	border-right: 0;*/
-	margin-top:5px;
+	margin-top:0px;
 	padding-left:5px;
 }
 
