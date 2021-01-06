@@ -6306,6 +6306,7 @@ header-style-seven .nav-toggler:hover{
 .project-detail .project-tabs{
 	position: relative;
 	display: flex;
+	justify-content: center;
 }
 
 .project-detail .project-tabs .tab-btns{
@@ -6337,12 +6338,13 @@ header-style-seven .nav-toggler:hover{
 
 .project-detail .tabs-content .image{
 	position: relative;
+	height: 80vh;
 }
 
 .project-detail .tabs-content .image img{
 	display: block;
-	width: 100%;
-	height: auto;
+	width: auto;
+	height: 100%;
 }
 
 .project-detail .lower-content{

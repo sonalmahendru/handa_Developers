@@ -23,7 +23,7 @@
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
 
-<body onload="showDivs(0,5)">
+<body onload="showDivs(0,3)">
 
 <div class="page-wrapper">
     <!-- Preloader -->
@@ -399,7 +399,7 @@
 <script src="js/color-settings.js"></script>
 </body>
 <script>
-    var slideIndex = 5; //contains the last slide index
+    var slideIndex = 3; //contains the last slide index
     var curSlide = 0;
     var thumbnails = document.getElementsByClassName("tab-btn");
     var fullImages = document.getElementsByClassName("tab");
@@ -412,7 +412,7 @@
         for (i = 0; i < num_slides; i++) {
             if(thumbnails[i].classList.contains("active-btn")){
                 curSlide = i;
-                slideIndex = i+5;
+                slideIndex = i+3;
             }
             thumbnails[i].classList.remove("active-btn");
             thumbnails[i].style.display = "none";
@@ -421,7 +421,7 @@
         }
 
         curSlide+=n;
-        slideIndex = 6*(1+Math.floor(curSlide/6))-1;
+        slideIndex = 4*(1+Math.floor(curSlide/4))-1;
         //if first slide is selected --> curSlide==-1
         if(curSlide == -1){
             curSlide = num_slides-1;
@@ -430,7 +430,7 @@
         //if last slide is selected --> curSlide == num_slides
         else if(curSlide == num_slides){
             curSlide = 0;
-            slideIndex = 5;
+            slideIndex = 3;
         }
 
         showDivs(curSlide, slideIndex);
@@ -440,11 +440,11 @@
 
         if (slideIndex >= num_slides) {
             slideIndex = num_slides-1;
-        } else if(slideIndex <= 5){
-            slideIndex = 5;
+        } else if(slideIndex <= 3){
+            slideIndex = 3;
         }
     
-        for(var i=slideIndex;i>slideIndex-6;i--){
+        for(var i=slideIndex;i>slideIndex-4;i--){
             thumbnails[i].style.display = "block";  
         }
         fullImages[curSlide].classList.add("active-tab")
