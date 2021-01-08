@@ -462,7 +462,14 @@
 <script src="js/color-settings.js"></script>
 </body>
 <script>
-    var slideIndex = 3; //contains the last slide index
+
+    slideIndexCounter = 3;
+    if(screen.height <=800){
+        slideIndexCounter = 3;
+    } else{
+        slideIndexCounter = 4;
+    }
+    var slideIndex = 0+slideIndexCounter; //contains the last slide index
     var curSlide = 0;
     var thumbnails = document.getElementsByClassName("tab-btn");
     var fullImages = document.getElementsByClassName("tab");
@@ -475,7 +482,7 @@
         for (i = 0; i < num_slides; i++) {
             if(thumbnails[i].classList.contains("active-btn")){
                 curSlide = i;
-                slideIndex = i+3;
+                slideIndex = i+slideIndexCounter;
             }
             thumbnails[i].classList.remove("active-btn");
             thumbnails[i].style.display = "none";
@@ -484,7 +491,7 @@
         }
 
         curSlide+=n;
-        slideIndex = 4*(1+Math.floor(curSlide/4))-1;
+        slideIndex = (slideIndexCounter+1)*(1+Math.floor(curSlide/(slideIndexCounter+1)))-1;
         //if first slide is selected --> curSlide==-1
         if(curSlide == -1){
             curSlide = num_slides-1;
@@ -493,7 +500,7 @@
         //if last slide is selected --> curSlide == num_slides
         else if(curSlide == num_slides){
             curSlide = 0;
-            slideIndex = 3;
+            slideIndex = slideIndexCounter;
         }
 
         showDivs(curSlide, slideIndex);
@@ -503,11 +510,11 @@
 
         if (slideIndex >= num_slides) {
             slideIndex = num_slides-1;
-        } else if(slideIndex <= 3){
-            slideIndex = 3;
+        } else if(slideIndex <= slideIndexCounter){
+            slideIndex = slideIndexCounter;
         }
     
-        for(var i=slideIndex;i>slideIndex-4;i--){
+        for(var i=slideIndex;i>slideIndex-(slideIndexCounter+1);i--){
             thumbnails[i].style.display = "block";  
         }
         fullImages[curSlide].classList.add("active-tab")
@@ -517,5 +524,6 @@
 }
 
 </script>
+
 <!-- project-detail27:18-->
 </html>
