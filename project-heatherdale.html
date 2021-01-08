@@ -23,7 +23,7 @@
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
 
-<body onload="showDivs(0,3)">
+<body onload="showDivs(0,4)">
 
 <div class="page-wrapper">
     <!-- Preloader -->
@@ -214,16 +214,17 @@
                             <div class="tab" id="tab-6a">
                                 <figure class="image"><a href="images/gallery/heatherdale/img6a.jpg" class="lightbox-image" data-fancybox="images"><img src="images/gallery/heatherdale/img6a.jpg" alt=""></a></figure>
                             </div>
+                            <div style="text-align: center;">
+                                <button id="prevbtn" class="prevbtn" onclick="plusDivs(-1)">
+                                    <span class="fa fa-long-arrow-left"></span> Previous
+                                </button>
+                                <button id="nextbtn" class="nextbtn" onclick="plusDivs(1)">Next
+                                    <span class="fa fa-long-arrow-right"></span>
+                                </button></li>
+                            </div>
                         </div>
                     </div>
-                    <div style="text-align: center;">
-                        <button id="prevbtn" class="prevbtn" onclick="plusDivs(-1)">
-                            <span class="fa fa-long-arrow-left"></span> Previous
-                        </button>
-                        <button id="nextbtn" class="nextbtn" onclick="plusDivs(1)">Next
-                            <span class="fa fa-long-arrow-right"></span>
-                        </button></li>
-                    </div>
+                    
                 </div>
                 
                 <!--Lower Content-->
@@ -400,12 +401,12 @@
 </body>
 <script>
 
-    slideIndexCounter = 3;
-    if(screen.height <=800){
+    slideIndexCounter = 4;
+    /*if(screen.height <=800){
         slideIndexCounter = 3;
     } else{
-        slideIndexCounter = 4;
-    }
+        slideIndexCounter = 5;
+    }*/
     var slideIndex = 0+slideIndexCounter; //contains the last slide index
     var curSlide = 0;
     var thumbnails = document.getElementsByClassName("tab-btn");

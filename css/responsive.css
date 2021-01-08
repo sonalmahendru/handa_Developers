@@ -284,12 +284,12 @@
 
 	.project-detail .tabs-content,
 	.project-detail .project-tabs .tab-btns{
-		width: 100%;
+		/*width: 100%;*/
 	}
 
 	.project-detail .project-tabs .tab-btn{
-		float: left;
-		width: 33.33333%;
+		/*float: left;
+		width: 33.33333%;*/
 	}
 
 	.rtl .banner-section .slide-item:before{
@@ -1786,7 +1786,7 @@
 	}
 
 	.project-detail .project-tabs .tab-btn{
-		width: 33.33333%;
+		/*width: 33.33333%;*/
 	}
 
 	.rtl .header-style-three .main-menu .navigation > li{

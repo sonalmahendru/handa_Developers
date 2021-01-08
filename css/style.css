@@ -6312,8 +6312,11 @@ header-style-seven .nav-toggler:hover{
 .project-detail .project-tabs .tab-btns{
 	position: relative;
 	float: left;
-	width: 200px;
+	width: auto;
 	margin-right: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .project-detail .project-tabs .tab-btn{
@@ -6323,12 +6326,14 @@ header-style-seven .nav-toggler:hover{
 	margin-left: 5px;
 	margin-right: 5px;
 	margin-bottom:15px;
+	height: 14vh;
 }
 
 .project-detail .project-tabs .tab-btn img{
 	display: block;
-	width: 100%;
-	height: auto;
+	width: auto;
+	height: 100%;
+	margin: auto;
 }
 
 .project-detail .tabs-content{
@@ -6338,7 +6343,7 @@ header-style-seven .nav-toggler:hover{
 
 .project-detail .tabs-content .image{
 	position: relative;
-	height: 80vh;
+	height: 75vh;
 }
 
 .project-detail .tabs-content .image img{

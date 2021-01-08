@@ -133,10 +133,10 @@
                     <div class="project-tabs tabs-box clearfix" style="display: flex;">
                         <!--Tab Btns-->
                         <ul class="tab-btns tab-buttons clearfix">
-                            <li data-tab="#tab-1" class="tab-btn active-btn"><img src="images/gallery/fairoaks/pic1.jpg" alt=""></li>
-                            <li data-tab="#tab-2" class="tab-btn"><img src="images/gallery/fairoaks/pic2.jpg" alt=""></li>
-                            <li data-tab="#tab-3" class="tab-btn"><img src="images/gallery/fairoaks/pic3.jpg" alt=""></li>
-                            <li data-tab="#tab-4" class="tab-btn"><img src="images/gallery/fairoaks/pic4.jpg" alt=""></li>
+                            <li style="height:18vh;" data-tab="#tab-1" class="tab-btn active-btn"><img src="images/gallery/fairoaks/pic1.jpg" alt=""></li>
+                            <li style="height:18vh;" data-tab="#tab-2" class="tab-btn"><img src="images/gallery/fairoaks/pic2.jpg" alt=""></li>
+                            <li style="height:18vh;" data-tab="#tab-3" class="tab-btn"><img src="images/gallery/fairoaks/pic3.jpg" alt=""></li>
+                            <li style="height:18vh;" data-tab="#tab-4" class="tab-btn"><img src="images/gallery/fairoaks/pic4.jpg" alt=""></li>
                         </ul>
                         
                         <!--Tabs Container-->
@@ -160,16 +160,17 @@
                             <div class="tab" id="tab-4">
                                 <figure class="image"><a href="images/gallery/fairoaks/pic4.jpg" class="lightbox-image" data-fancybox="images"><img src="images/gallery/fairoaks/pic4.jpg" alt=""></a></figure>
                             </div>
+                            <div style="text-align: center;">
+                                <button id="prevbtn" class="prevbtn" onclick="plusDivs(-1)">
+                                    <span class="fa fa-long-arrow-left"></span> Previous
+                                </button>
+                                <button id="nextbtn" class="nextbtn" onclick="plusDivs(1)">Next
+                                    <span class="fa fa-long-arrow-right"></span>
+                                </button></li>
+                            </div>
                         </div>
                     </div>
-                    <div style="text-align: center;">
-                        <button id="prevbtn" class="prevbtn" onclick="plusDivs(-1)">
-                            <span class="fa fa-long-arrow-left"></span> Previous
-                        </button>
-                        <button id="nextbtn" class="nextbtn" onclick="plusDivs(1)">Next
-                            <span class="fa fa-long-arrow-right"></span>
-                        </button></li>
-                    </div>
+                    
                 </div>
                 
                 <!--Lower Content-->
