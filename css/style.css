@@ -4135,7 +4135,7 @@ header-style-seven .nav-toggler:hover{
 
 .page-title{
 	position:relative;
-	padding: 180px 0 180px;
+	padding: 50px 0 50px;
 	background-size:cover;
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -4289,7 +4289,7 @@ header-style-seven .nav-toggler:hover{
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: center left;
-	padding: 100px 0;
+	padding: 30px 0;
 }
 
 .about-section .image-column{
@@ -5696,7 +5696,7 @@ header-style-seven .nav-toggler:hover{
 
 .projects-section{
 	position: relative;
-	padding: 100px 0 0;
+	padding: 30px 0 0;
 }
 
 .projects-section .inner-container{
@@ -5993,7 +5993,7 @@ header-style-seven .nav-toggler:hover{
 
 .projects-section.alternate{
 	position: relative;
-	padding:100px 0;
+	padding:30px 0;
 }
 
 .mixitup-gallery .filters{
@@ -6938,10 +6938,10 @@ header-style-seven .nav-toggler:hover{
 	display: block;
 	width: 100%;
 	text-align: right;
-	font-size: 13px;
+	font-size: 25px;
 	line-height: 1.2em;
 	color: #222222;
-	font-weight: 500;
+	font-weight: bold;
 }
 
 /*** 
