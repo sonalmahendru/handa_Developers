@@ -4136,7 +4136,10 @@ header-style-seven .nav-toggler:hover{
 .page-title{
 	position:relative;
 	padding: 120px 0 120px;
-	background-size:cover;
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
 	background-position:center center;
 	background-repeat:no-repeat;
 }
@@ -10278,7 +10281,7 @@ header-style-seven .nav-toggler:hover{
 
 .contact-page-section .form-column .inner-column{
 	position: relative;
-	padding: 100px 0;	
+	padding: 50px 0;	
 }
 
 .contact-page-section .sec-title{
