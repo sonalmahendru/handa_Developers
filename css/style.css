@@ -4422,6 +4422,46 @@ header-style-seven .nav-toggler:hover{
 	font-weight: 700;
 }
 
+/***
+
+Meetup section
+
+***/
+
+.about-section .image-column .meetup-title-box{
+	position: absolute;
+	left: 95px;
+	top: 350px;
+	width: 100%;
+	text-align: left;
+	z-index: 9;
+}
+
+.about-section .image-column .meetup-title-box h2{
+	position: relative;
+	display: block;
+	font-size: 60px;
+	line-height: 78px;
+	color: #f2f2f2;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-shadow: 0 0 10px #000;
+	font-family: "Rubik", sans-serif;
+}
+
+.about-section .image-column .image-box .meetup-alphabet-img{
+	position: relative;
+	left: -20px;
+	top: -20px;
+}
+
+.about-section .image-column .image-box .meetup-alphabet-img img{
+	max-width: 100%;
+	height: auto;
+}
+
+
+
 /*** 
 
 ====================================================================
