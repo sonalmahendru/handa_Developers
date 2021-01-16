@@ -4135,11 +4135,11 @@ header-style-seven .nav-toggler:hover{
 
 .page-title{
 	position:relative;
-	padding: 100px 0 100px;
-	background-size:100% 100%;
-	-webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
+	padding: 12rem 0 12rem;
+	background-size:cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 	background-position:center center;
 	background-repeat:no-repeat;
 }
@@ -4292,7 +4292,7 @@ header-style-seven .nav-toggler:hover{
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: center left;
-	padding: 30px 0;
+	padding: 0.5rem 0;
 }
 
 .about-section .image-column{
@@ -4308,7 +4308,7 @@ header-style-seven .nav-toggler:hover{
 .about-section .image-column .title-box{
 	position: absolute;
 	left: 95px;
-	bottom: 75px;
+	bottom: 150px;
 	width: 100%;
 	text-align: left;
 	z-index: 9;
@@ -4329,7 +4329,11 @@ header-style-seven .nav-toggler:hover{
 .about-section .image-column .image-box{
 	position: relative;
 	z-index: 1;
-	padding-top: 110px;
+	padding-top: 100px;
+	margin-top:10px;
+	border: 1rem solid #f2f2f2;
+	border-right: 0;
+	border-bottom: 0;
 }
 
 .about-section .image-column .image-box .image{
@@ -4339,8 +4343,8 @@ header-style-seven .nav-toggler:hover{
 
 .about-section .image-column .image-box .alphabet-img{
 	position: absolute;
-	left: 0;
-	top: 0;
+	left: -20px;
+	top: -20px;
 }
 
 .about-section .image-column .image-box .alphabet-img img{
@@ -4365,12 +4369,12 @@ header-style-seven .nav-toggler:hover{
 
 .about-section .content-column .inner-column{
 	position: relative;
-	padding-top: 170px;
+	padding-top: 0.5rem;
 }
 
 .about-section .content-column .content-box{
 	position: relative;
-	padding: 70px 90px 74px;
+	padding: 0.5rem 90px 20px;
 	background-color: #ffffff;
 	border: 20px solid #f2f2f2;
 	border-left: 0;
@@ -4378,7 +4382,7 @@ header-style-seven .nav-toggler:hover{
 
 .about-section .content-column .content-box .title{
 	position: relative;
-	margin-bottom: 35px;
+	margin-bottom: 0.5rem;
 }
 
 .about-section .content-column .content-box .title h2{
@@ -4388,7 +4392,7 @@ header-style-seven .nav-toggler:hover{
 	line-height: 42px;
 	color: #222222;
 	font-weight: 500;
-	padding-bottom: 35px;
+	padding-bottom: 0.5rem;
 }
 
 .about-section .content-column .content-box .title h2:before{
@@ -6788,6 +6792,7 @@ header-style-seven .nav-toggler:hover{
 .team-block .inner-box{
 	position: relative;
 	padding-right: 50px;
+	margin: 0 4rem;
 }	
 
 .team-block .image-box{
