@@ -4135,7 +4135,7 @@ header-style-seven .nav-toggler:hover{
 
 .page-title{
 	position:relative;
-	padding: 12rem 0 12rem;
+	padding: 6rem 0 6rem;
 	background-size:cover;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -6781,7 +6781,7 @@ header-style-seven .nav-toggler:hover{
 
 .team-section{
 	position: relative;
-	padding: 100px 0 40px;
+	padding: 50px 0 40px;
 }
 
 .team-block{
@@ -6911,7 +6911,7 @@ header-style-seven .nav-toggler:hover{
 .team-block .image-box .name{
 	position: absolute;
 	right: -40px;
-	bottom: 40px;
+	bottom: 10px;
 	min-width: 170px;
 	text-align: center;
 	background-color: #222222;
