@@ -1404,7 +1404,7 @@ img{
 }
 
 .header-style-four .main-menu .navigation > li{
-	margin-left: 45px;
+	margin-left: 25px;
 }
 
 .header-style-four .main-menu .navigation > li > a{
@@ -4431,7 +4431,7 @@ Meetup section
 .about-section .image-column .meetup-title-box{
 	position: absolute;
 	left: 95px;
-	top: 350px;
+	top: 400px;
 	width: 100%;
 	text-align: left;
 	z-index: 9;
