@@ -691,7 +691,7 @@ img{
 	line-height:30px;
 	font-weight:500;
 	color:#222222;
-	padding:35px 0;
+	padding:30px 0;
 	opacity:1;
 	text-align:center;
 	text-transform: uppercase;
@@ -1301,7 +1301,7 @@ img{
 .header-style-three .outer-box{
 	position: relative;
 	float: right;
-	padding: 35px 0;
+	padding: 30px 0;
 }
 
 .header-style-three .main-menu .navigation > li > a{
@@ -4135,7 +4135,7 @@ header-style-seven .nav-toggler:hover{
 
 .page-title{
 	position:relative;
-	padding: 6rem 0 6rem;
+	padding: 120px 0 120px;
 	background-size:cover;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -4161,7 +4161,7 @@ header-style-seven .nav-toggler:hover{
 
 .page-title .title-box{
 	position: relative;
-	float: left;
+	float: right;
 }
 
 .page-title h1{
@@ -4172,7 +4172,7 @@ header-style-seven .nav-toggler:hover{
 	line-height: 50px;
 	font-weight: 500;
 	margin-bottom: 35px;
-	padding-top: 95px;
+	margin-top: 95px;
 }
 
 .page-title .title{
@@ -4331,7 +4331,7 @@ header-style-seven .nav-toggler:hover{
 	z-index: 1;
 	padding-top: 100px;
 	margin-top:10px;
-	border: 1rem solid #f2f2f2;
+	border: 15px solid #f2f2f2;
 	border-right: 0;
 	border-bottom: 0;
 }
@@ -4369,14 +4369,14 @@ header-style-seven .nav-toggler:hover{
 
 .about-section .content-column .inner-column{
 	position: relative;
-	padding-top: 0.5rem;
+	padding-top: 10px;
 }
 
 .about-section .content-column .content-box{
 	position: relative;
-	padding: 0.5rem 90px 20px;
+	padding: 10px 90px 20px;
 	background-color: #ffffff;
-	border: 1rem solid #f2f2f2;
+	border: 15px solid #f2f2f2;
 	border-left: 0;
 }
 
@@ -4422,9 +4422,11 @@ header-style-seven .nav-toggler:hover{
 	font-weight: 700;
 }
 
-/***
+/*** 
 
-Meetup section
+====================================================================
+			Meet Up Section
+====================================================================
 
 ***/
 
