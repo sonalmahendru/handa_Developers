@@ -4136,10 +4136,10 @@ header-style-seven .nav-toggler:hover{
 .page-title{
 	position:relative;
 	padding: 120px 0 120px;
-	background-size:cover;
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+	background-size:100% 100%;
+	-webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
 	background-position:center center;
 	background-repeat:no-repeat;
 }
