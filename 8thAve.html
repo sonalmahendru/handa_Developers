@@ -23,7 +23,7 @@
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
 
-<body onload="showDivs(0,4)">
+<body onload="showDivs(0,3)">
 
 <div class="page-wrapper">
     <!-- Preloader -->
@@ -55,9 +55,13 @@
                                 </li>
                                 <li><a href="team.html">Our Team</a></li>
                                 <li><a href="meetup.html">Our Meet-Up</a></li>
-                                <li><a href="past-projects.html">Past Projects</a>
+                                <li class="current dropdown"><a href="#">Our Projects</a>
+                                    <ul>
+                                        <li><a href="past-projects.html">Past Projects</a></li>
+                                        <li><a href="current-projects.html">Current Projects</a></li>
+                                    </ul>
                                 </li>
-                                <li class="current"><a href="current-projects.html">Current Projects</a>
+                                <li><a href="agents.html">Realtors</a>
                                 </li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul>
@@ -92,9 +96,13 @@
                                 </li>
                                 <li><a href="team.html">Our Team</a></li>
                                 <li><a href="meetup.html">Our Meet-Up</a></li>
-                                <li><a href="past-projects.html">Past Projects</a>
+                                <li class="current dropdown"><a href="#">Our Projects</a>
+                                    <ul>
+                                        <li><a href="past-projects.html">Past Projects</a></li>
+                                        <li><a href="current-projects.html">Current Projects</a></li>
+                                    </ul>
                                 </li>
-                                <li class="current"><a href="current-projects.html">Current Projects</a>
+                                <li><a href="agents.html">Realtors</a>
                                 </li>
                                 <li><a href="contact.html">Contact</a></li>
                             </ul> 
@@ -183,57 +191,34 @@
                     <div class="project-tabs tabs-box clearfix">
                         <!--Tab Btns-->
                         <ul class="tab-btns tab-buttons clearfix">
-                            <li style="display: none;" data-tab="#tab-1" class="tab-btn active-btn"><img src="images/gallery/8thave/img1.jpg" alt=""></li>
-                            <li style="display: none;" data-tab="#tab-2" class="tab-btn"><img src="images/gallery/8thave/img2.jpg" alt=""></li>
-                            <li style="display: none;" data-tab="#tab-3" class="tab-btn"><img src="images/gallery/8thave/img3.jpg" alt=""></li>
-                            <li style="display: none;" data-tab="#tab-4" class="tab-btn"><img src="images/gallery/8thave/img4.jpg" alt=""></li>
-                            <li style="display: none;" data-tab="#tab-5" class="tab-btn"><img src="images/gallery/8thave/img5.jpg" alt=""></li>
-                            <li style="display: none;" data-tab="#tab-6" class="tab-btn"><img src="images/gallery/8thave/img6.jpg" alt=""></li>
-                            <li style="display: none;" data-tab="#tab-7" class="tab-btn"><img src="images/gallery/8thave/img7.jpg" alt=""></li>
-                            <li style="display: none;" data-tab="#tab-8" class="tab-btn"><img src="images/gallery/8thave/img8.jpg" alt=""></li>
+                            <li style="display: none; height: 18vh;" data-tab="#tab-1" class="tab-btn active-btn"><img src="images/gallery/8thave/1.jpg" alt=""></li>
+                            <li style="display: none; height: 18vh;" data-tab="#tab-2" class="tab-btn"><img src="images/gallery/8thave/2.jpg" alt=""></li>
+                            <li style="display: none; height: 18vh;" data-tab="#tab-3" class="tab-btn"><img src="images/gallery/8thave/3.jpg" alt=""></li>
+                            <li style="display: none; height: 18vh;" data-tab="#tab-4" class="tab-btn"><img src="images/gallery/8thave/4.jpg" alt=""></li>
                         </ul>
                         
                         <!--Tabs Container-->
                         <div class="tabs-content">
                             <!--Tab / Active Tab-->
                             <div class="tab active-tab" id="tab-1">
-                                <figure class="image"><a href="images/gallery/8thave/img1.jpg" class="lightbox-image" data-fancybox="images"><img src="images/gallery/8thave/img1.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="images/gallery/8thave/1.jpg" class="lightbox-image" data-fancybox="images"><img src="images/gallery/8thave/1.jpg" alt=""></a></figure>
                             </div>
 
                             <!--Tab-->
                             <div class="tab" id="tab-2">
-                                <figure class="image"><a href="images/gallery/8thave/img2.jpg" class="lightbox-image" data-fancybox="images"><img src="images/gallery/8thave/img2.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="images/gallery/8thave/2.jpg" class="lightbox-image" data-fancybox="images"><img src="images/gallery/8thave/2.jpg" alt=""></a></figure>
                             </div>
 
                             <!--Tab-->
                             <div class="tab" id="tab-3">
-                                <figure class="image"><a href="images/gallery/8thave/img3.jpg" class="lightbox-image" data-fancybox="images"><img src="images/gallery/8thave/img3.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="images/gallery/8thave/3.jpg" class="lightbox-image" data-fancybox="images"><img src="images/gallery/8thave/3.jpg" alt=""></a></figure>
                             </div>
 
                             <!--Tab-->
                             <div class="tab" id="tab-4">
-                                <figure class="image"><a href="images/gallery/8thave/img4.jpg" class="lightbox-image" data-fancybox="images"><img src="images/gallery/8thave/img4.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="images/gallery/8thave/4.jpg" class="lightbox-image" data-fancybox="images"><img src="images/gallery/8thave/4.jpg" alt=""></a></figure>
                             </div>
 
-                            <!--Tab-->
-                            <div class="tab" id="tab-5">
-                                <figure class="image"><a href="images/gallery/8thave/img5.jpg" class="lightbox-image" data-fancybox="images"><img src="images/gallery/8thave/img5.jpg" alt=""></a></figure>
-                            </div>
-
-                            <!--Tab-->
-                            <div class="tab" id="tab-6">
-                                <figure class="image"><a href="images/gallery/8thave/img6.jpg" class="lightbox-image" data-fancybox="images"><img src="images/gallery/8thave/img6.jpg" alt=""></a></figure>
-                            </div>
-
-                            <!--Tab-->
-                            <div class="tab" id="tab-7">
-                                <figure class="image"><a href="images/gallery/8thave/img7.jpg" class="lightbox-image" data-fancybox="images"><img src="images/gallery/8thave/img7.jpg" alt=""></a></figure>
-                            </div>
-
-                            <!--Tab-->
-                            <div class="tab" id="tab-8">
-                                <figure class="image"><a href="images/gallery/8thave/img8.jpg" class="lightbox-image" data-fancybox="images"><img src="images/gallery/8thave/img8.jpg" alt=""></a></figure>
-                            </div>
                             <div style="text-align: center;">
                                 <button id="prevbtn" class="prevbtn" onclick="plusDivs(-1)">
                                     <span class="fa fa-long-arrow-left"></span> Previous
@@ -323,6 +308,7 @@
                                 <li><a href="meetup.html">Our Meet-Up</a></li>
                                            <li><a href="past-projects.html">Past Projects</a></li>
                                            <li><a href="current-projects.html">Current Projects</a></li>
+                                           <li><a href="agents.html">Realtors</a></li>
                                           <li><a href="contact.html">Contact Us</a></li>
                             </ul>
                                    </div>
@@ -416,7 +402,7 @@
 </body>
 <script>
 
-    slideIndexCounter = 4;
+    slideIndexCounter = 3;
     /*if(screen.height <=800){
         slideIndexCounter = 3;
     } else{
