@@ -4162,6 +4162,7 @@ header-style-seven .nav-toggler:hover{
 .page-title .title-box{
 	position: relative;
 	float: right;
+	max-width: 450px;
 }
 
 .page-title h1{
