@@ -2980,6 +2980,52 @@ header-style-seven .nav-toggler:hover{
 	content: "";
 }
 
+.banner-carousel-two .content-box .inner-box2{
+	position: relative;
+	float: left;
+	max-width: 600px;
+	background-color: #49546474;
+	padding: 70px 50px 60px;
+	padding-right: 10px;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transform: translateX(-100px);
+	-moz-transform: translateX(-100px);
+	-ms-transform: translateX(-100px);
+	-o-transform: translateX(-100px);
+	transform: translateX(-100px);
+}
+
+.banner-carousel-two .content-box .inner-box2:before{
+	position: absolute;
+	top: 0;
+	right: 100%;
+	height: 100%;
+	width: 1000%;
+	background-color: #49546474;
+	content: "";
+}
+
+.banner-carousel-two .active .content-box .inner-box2{
+	visibility: visible;
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-ms-transform: translateX(0px);
+	-o-transform: translateX(0px);
+	transform: translateX(0px);
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+	-webkit--moz-transition-delay: 300ms;
+	-moz--moz-transition-delay: 300ms;
+	-ms--moz-transition-delay: 300ms;
+	-o--moz-transition-delay: 300ms;
+	-moz-transition-delay: 300ms;
+}
+
 .banner-carousel-two .active .content-box .inner-box{
 	visibility: visible;
 	opacity: 1;
