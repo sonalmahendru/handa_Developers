@@ -6408,7 +6408,7 @@ header-style-seven .nav-toggler:hover{
 .project-detail .project-tabs .tab-btns{
 	position: relative;
 	float: left;
-	width: auto;
+	width: 15%;
 	margin-right: 10px;
 	display: flex;
 	flex-direction: column;
