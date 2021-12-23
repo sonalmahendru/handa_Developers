@@ -273,7 +273,7 @@ a{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#69788f', endColorstr='#495464',GradientType=0 );
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 1200px){
 	
 	.main-menu .navbar-header .navbar-toggler .icon{
 		color:#495464;
