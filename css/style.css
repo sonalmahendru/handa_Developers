@@ -9421,7 +9421,7 @@ header-style-seven .nav-toggler:hover{
 	line-height: 28px;
 	color: #777777;
 	font-weight: 400;
-	margin-bottom: 28px;
+	/*margin-bottom: 28px;*/
 }
 
 .contact-section .info-column .contact-info li a{
@@ -9892,6 +9892,10 @@ header-style-seven .nav-toggler:hover{
 	position: relative;
 	float: left;
 	margin-left: 26px;
+	font-size: 16px;
+    line-height: 30px;
+    color: #f4f4f4;
+    font-weight: 400;
 }
 
 .social-icon-two li a{
