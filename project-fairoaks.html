@@ -258,7 +258,7 @@
 
                             <!--Tab / active tab-->
                             <div class="tab active-tab" id="tab-1a">
-                                <figure class="image"><video id="myvideo" style="height: 75vh;" width="100%" autoplay playsinline muted src="images/gallery/fairoaks/video.mp4"></video></figure>
+                                <figure class="image"><video id="myvideo" style="height: 75vh;" width="100%" autoplay controls playsinline muted src="images/gallery/fairoaks/video.mp4"></video></figure>
                             </div>
 
                             <!--Tab-->
@@ -734,6 +734,8 @@
     var num_slides = thumbnails.length;
     var prevBtn = document.getElementById("prevbtn");
     var nextBtn = document.getElementById("nextbtn");
+    var videoDiv = document.getElementById("tab-1a");
+    var video = document.getElementById("myvideo"); 
    
 
     function plusDivs(n) {
@@ -777,18 +779,24 @@
         }
         fullImages[curSlide].classList.add("active-tab")
         fullImages[curSlide].style.display="block";
+        if(videoDiv.classList.contains("active-tab")){
+            video.muted = false;
+        } else{
+            video.muted = true;
+        }
+
         
        // var video = document.getElementById("myvideo");
         //video.muted = !video.muted;
     }
 
-    /*setInterval(function(){
-        var videoDiv = document.getElementById("tab-1a");
-        var video = document.getElementById("myvideo"); 
-        if(videoDiv.classList.contains("active")){
-            video.muted = !video.muted;
+    setInterval(function(){
+        if(!videoDiv.classList.contains("active-tab")){
+            video.muted = true;
+        } else{
+            video.muted=false;
         }
-    },500);*/
+    },500);
 
 
 
