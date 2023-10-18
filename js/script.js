@@ -6,8 +6,8 @@
 	$(document).ready(function() {
 		var cur_year = new Date().getFullYear();
 		var years = cur_year-2015;
-		document.getElementById("history").innerHTML="Handa Developers - in business since last "+years+" years. Completed over 75 real estate deals spread out in 3 different states. Currently serving Bay Area.";
-		console.log("function executed; years are :"+years);
+		document.getElementById("history").innerHTML="Handa Developers - in business since last "+years+" years. Completed over 87 real estate deals spread out in 3 different states. Currently serving Bay Area.";
+		//console.log("function executed; years are :"+years);
 	});
 	
 	//Hide Loading Box (Preloader)
