@@ -8,6 +8,8 @@
 		var years = cur_year-2015;
 		document.getElementById("history").innerHTML="Handa Developers - in business since last "+years+" years. Completed over 87 real estate deals spread out in 3 different states. Currently serving Bay Area.";
 		//console.log("function executed; years are :"+years);
+		document.getElementById("years_spinner").setAttribute("data-stop",years);
+		console.log("data set successful");
 	});
 	
 	//Hide Loading Box (Preloader)

@@ -5586,6 +5586,7 @@ header-style-seven .nav-toggler:hover{
 	position: relative;
 	float: left;
 	margin-right: 15px;
+	padding-bottom: 15px;
 }
 
 .fact-counter .count-box .count-text{
