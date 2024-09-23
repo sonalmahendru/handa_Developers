@@ -23,7 +23,7 @@
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
 
-<body onload="showDivs(0,3)">
+<body onload="showDivs(0,0)">
 
 <div class="page-wrapper">
     <!-- Preloader -->
@@ -196,32 +196,20 @@
                     <div class="project-tabs tabs-box clearfix" style="display: flex;">
                         <!--Tab Btns-->
                         <ul class="tab-btns tab-buttons clearfix">
-                            <li style="height:18vh;" data-tab="#tab-00" class="tab-btn active-btn"><img src="images/gallery/byron/1.jpg" alt=""></li>
-                            <li style="height:18vh;" data-tab="#tab-01" class="tab-btn"><img src="images/gallery/byron/2.jpg" alt=""></li>
-                            <li style="height:18vh;" data-tab="#tab-02" class="tab-btn"><img src="images/gallery/byron/3.jpg" alt=""></li>
-                            <li style="height:18vh;" data-tab="#tab-03" class="tab-btn"><img src="images/gallery/byron/4.jpg" alt=""></li>
-                        </ul>
+                            <li style="display: none;" data-tab="#tab-00" class="tab-btn active-btn"><img src="images/gallery/millsave/img.jfif" alt=""></li>
+                            <!--<li style="display: none;" data-tab="#tab-01" class="tab-btn"><img src="images/gallery/brownave/0002.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-02" class="tab-btn"><img src="images/gallery/brownave/0003.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-03" class="tab-btn"><img src="images/gallery/brownave/0004.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-1" class="tab-btn"><img src="images/gallery/brownave/0005.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-2" class="tab-btn"><img src="images/gallery/brownave/0006.jpg" alt=""></li>
+                            <li style="display: none;" data-tab="#tab-3" class="tab-btn"><img src="images/gallery/brownave/0007.jpg" alt=""></li>
+                            --></ul>
                         
                         <!--Tabs Container-->
                         <div class="tabs-content">
                             <!--Tab / Active Tab-->
                             <div class="tab active-tab" id="tab-00">
-                                <figure class="image"><a href="images/gallery/byron/1.jpg" class="lightbox-image" data-fancybox="images"><img src="images/gallery/byron/1.jpg" alt=""></a></figure>
-                            </div>
-
-                            <!--Tab-->
-                            <div class="tab" id="tab-01">
-                                <figure class="image"><a href="images/gallery/byron/2.jpg" class="lightbox-image" data-fancybox="images"><img src="images/gallery/byron/2.jpg" alt=""></a></figure>
-                            </div>
-
-                            <!--Tab-->
-                            <div class="tab" id="tab-02">
-                                <figure class="image"><a href="images/gallery/byron/3.jpg" class="lightbox-image" data-fancybox="images"><img src="images/gallery/byron/3.jpg" alt=""></a></figure>
-                            </div>
-
-                            <!--Tab-->
-                            <div class="tab" id="tab-03">
-                                <figure class="image"><a href="images/gallery/byron/4.jpg" class="lightbox-image" data-fancybox="images"><img src="images/gallery/byron/4.jpg" alt=""></a></figure>
+                                <figure class="image"><a href="images/gallery/millsave/img.jfif" class="lightbox-image" data-fancybox="images"><img src="images/gallery/millsave/img.jfif" alt=""></a></figure>
                             </div>
 
                             <div style="text-align: center;">
@@ -244,7 +232,7 @@
                         <div class="content-column col-lg-8 col-md-12 col-sm-12">
                             <div class="inner-column">
                                 <h2>About This Home</h2>
-                                <p>We will be building a brand new 2 story home on this prestigious street of Palo Alto. The new house will be a 7 bedroom, 6 baths 5000 sq feet home with another 200 sq feet of garage. This includes a basement also. Construction expected to start in October 2021 and finish by July 2022.</p> 
+                                <p>Sold During Construction. This 6 bed 5.5 bath home in Burlingame was a brand new construction project and also has an ADU in the back.</p> 
                             </div>
                         </div>
                         
@@ -252,13 +240,18 @@
                         <div class="info-column col-lg-4 col-md-12 col-sm-12 ">
                             <div class="inner-column wow fadeInRight">
                                 <h3>Project Information</h3>
+                                <p>Price Insights</p>
+                                <ul class="info-list">
+                                    <li><strong>Sold Price :</strong> $4,625,000</li>
+                                </ul>
                                 <p>Home Facts</p>
                                 <ul class="info-list">
-                                    <li><strong>Status :</strong> Plans Being Developed</li>
-                                    <li><strong>Beds :</strong> 7 </li>
-                                    <li><strong>Baths :</strong> 6</li>
+                                    <li><strong>Status :</strong> Sold During Construction</li>
+                                    <li><strong>Year Sold :</strong> 2024 </li>
+                                    <li><strong>Beds :</strong> 6 </li>
+                                    <li><strong>Baths :</strong> 5.5</li>
                                     <li><strong>Property Type :</strong> Single Family Home</li>
-                                    <li><strong>City :</strong> Palo Alto</li>
+                                    <li><strong>City :</strong> Burlingame</li>
                                 </ul>
                             </div>
                         </div>
@@ -409,7 +402,7 @@
 </body>
 <script>
 
-    slideIndexCounter = 3;
+    slideIndexCounter = 0;
     /*if(screen.height <=800){
         slideIndexCounter = 3;
     } else{
