@@ -6426,6 +6426,13 @@ header-style-seven .nav-toggler:hover{
 	height: 14vh;
 }
 
+.project-detail .project-tabs .tab-btn.active-btn{
+	border: orange;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: medium;
+}
+
 .project-detail .project-tabs .tab-btn img{
 	display: block;
 	width: auto;
