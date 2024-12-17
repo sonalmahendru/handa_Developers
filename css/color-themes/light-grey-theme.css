@@ -276,7 +276,7 @@ a{
 @media only screen and (max-width: 1200px){
 	
 	.main-menu .navbar-header .navbar-toggler .icon{
-		color:#495464;
+		color:#5b7192;
 	}
 	
 	.main-menu .navbar-header .navbar-toggle,
@@ -296,7 +296,7 @@ a{
 	.main-menu .navigation > li .mega-menu-bar .column > ul > li:hover > a,
 	.main-menu .navbar-collapse > .navigation > li.current > a,
 	.main-menu .navbar-collapse > .navigation > li.current-menu-item > a{
-		background-color:#495464;
+		background-color: #5b7192; /*#495464;*/
 	}
 	
 }
