@@ -7032,6 +7032,7 @@ header-style-seven .nav-toggler:hover{
 	font-weight: 500;
 	padding: 10px 20px;
 	min-width: 170px;
+	cursor: default;
 }
 
 .team-block .inner-box:hover .image-box .name{
